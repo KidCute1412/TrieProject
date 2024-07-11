@@ -22,6 +22,8 @@ struct Trie {
 	// Insert a key into the trie
 	void insertKey(string& word);
 
+	//find key with same prefix
+	void keyWithPrefix(TrieNode* root, string prefix);
 
 	// Free the memory of the Trie
 	~Trie();
