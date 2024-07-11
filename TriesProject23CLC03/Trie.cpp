@@ -41,6 +41,25 @@ void Trie::insertKey(string& word)
 }
 
 
+void Trie::keyWithPrefix(TrieNode* root, string prefix)
+{
+    if (!root)
+    {
+        return;
+    }
+    if (root->wordEnd)
+    {
+        cout << prefix << endl;
+    }
+    for (int i = 0; i < 26; i++)
+    {
+        if (root->children[i] != nullptr)
+        {
+            keyWithPrefix(root->children[i], prefix + char('a' + i));
+        }
+    }
+}
+
 
 void printTrie(TrieNode* root, string word, ofstream& fout)
 {
