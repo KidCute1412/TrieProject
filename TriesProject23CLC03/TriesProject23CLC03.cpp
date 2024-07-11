@@ -12,7 +12,7 @@ int main()
 	printTrie(trie.root->children[0], "", fout);
 	char *p; int n;
 	GetKeyWord(p, n);
-	findKeyWord(trie.root->children[0], p, n);
+	findKeyWord(trie.root, p, n);
 	fout.close();
 	system("pause");
 	return 0;
