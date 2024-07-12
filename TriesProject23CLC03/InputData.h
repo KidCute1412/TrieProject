@@ -10,3 +10,6 @@ using namespace std;
 
 
 void buildTrieFromFile(Trie& trie, string& fileName);
+
+
+void getKeyWord(string& data);

@@ -1,2 +1,5 @@
-﻿  TriesProject23CLC03.cpp
+﻿  Trie.cpp
+D:\TriesProject23CLC03\TriesProject23CLC03\Trie.cpp(31,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\TriesProject23CLC03\TriesProject23CLC03\Trie.cpp(51,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\TriesProject23CLC03\TriesProject23CLC03\Trie.cpp(109,10): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   TriesProject23CLC03.vcxproj -> D:\TriesProject23CLC03\x64\Debug\TriesProject23CLC03.exe

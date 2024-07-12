@@ -24,3 +24,23 @@ void buildTrieFromFile(Trie& trie, string& fileName)
 	}
 	fin.close();
 }
+
+
+
+void getKeyWord(string& data)
+{
+	cout << "Enter key words: ";
+	getline(cin, data);
+	int pos = 0;
+	int len = data.length();
+	for (int i = 0; i < len; i++)
+	{
+		if (data[i] != ' ')
+		{
+			data[pos++] = data[i];
+
+		}
+	}
+	data = data.substr(0, pos);
+	//cout << data << endl;
+}
